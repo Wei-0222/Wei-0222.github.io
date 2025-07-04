@@ -1,11 +1,11 @@
 let votes = {
   apple:0,
-  banan:0,
+  banana:0,
   orange:0,
 };
 
 function vote(fruit){
-  votes[furit]++;
+  votes[fruit]++;
   updateResults();
 }
 
