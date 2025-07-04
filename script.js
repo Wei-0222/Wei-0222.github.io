@@ -4,7 +4,7 @@ let votes = {
   orange:0,
 };
 
-function vote(furit){
+function vote(fruit){
   votes[furit]++;
   updateResults();
 }
