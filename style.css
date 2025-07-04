@@ -1,6 +1,6 @@
 body {
   font-family: "Microsoft JhengHei", sans-serif;
-  background-color: #d7dfd6;
+  background-color: #f0f0f0;
   text-align: center;
   margin-top: 50px;
 }
@@ -8,8 +8,25 @@ body {
 button {
   font-size: 18px;
   padding: 10px 20px;
-  background-color: #57af4c;
+  margin: 5px;
+  background-color: #4CAF50;
   color: white;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.result-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.bar {
+  height: 20px;
+  background-color: #4CAF50;
+  width: 0;
+  margin: 0 10px;
+  transition: width 0.3s ease;
 }

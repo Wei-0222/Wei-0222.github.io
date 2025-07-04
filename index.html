@@ -14,11 +14,21 @@
   <button onclick="vote('orange')">柳橙</button>
 
 <h2>投票結果</h2>
-<div id = "results">
-  <div>蘋果:<span id = "apple-count">0</span></div>
-<div>香蕉:<span id = "banana-count">0</span></div>
-<div >柳橙:<span id="orange-count">0</span></div>
+<div id="results">
+  <div class="result-row">
+    <span>蘋果：</span>
+    <div class="bar" id="apple-bar"></div>
+    <span id="apple-count">0</span>
+  </div>
+  <div class="result-row">
+    <span>香蕉：</span>
+    <div class="bar" id="banana-bar"></div>
+    <span id="banana-count">0</span>
+  </div>
+  <div class="result-row">
+    <span>柳橙：</span>
+    <div class="bar" id="orange-bar"></div>
+    <span id="orange-count">0</span>
+  </div>
 </div>
-  <script src="script.js"></script>
-</body>
-</html>
+
