@@ -2,13 +2,23 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>我的第一個網站</title>
+  <title>簡單投票</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>歡迎來到我的網站！</h1>
-  <button onclick="sayHello()">點我</button>
+  <h1>你喜歡什麼水果</h1>
 
+  <div id="vote-options"></div>
+  <button onclick="vote(apple)">蘋果</button>
+  <button onclick="vote(banana)">香蕉</button>
+  <button onclick="vote(orange)">柳橙</button>
+</div>
+<h2>投票結果</h2>
+<div id = "results">
+  <div>蘋果:<span id = "apple-count">0</span></div>
+<div>香蕉:<span id = "banana-count">0</span></div>
+<div >柳橙:<span id="orange-count">0</span></div>
+</div>
   <script src="script.js"></script>
 </body>
 </html>

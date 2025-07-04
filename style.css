@@ -1,6 +1,6 @@
 body {
   font-family: "Microsoft JhengHei", sans-serif;
-  background-color: #77cc62;
+  background-color: #d7dfd6;
   text-align: center;
   margin-top: 50px;
 }
@@ -8,7 +8,7 @@ body {
 button {
   font-size: 18px;
   padding: 10px 20px;
-  background-color: #af7c4c;
+  background-color: #57af4c;
   color: white;
   border: none;
   border-radius: 5px;
